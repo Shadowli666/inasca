@@ -8,4 +8,4 @@ DISEÑO Y DESARROLLO DE UN SITIO WEB PARA LA EMPRESA INVERSIONES A.S, C.A. (INAS
 Trabajo Especial de Grado para Optar al Título de Ingeniero de Computación
 
 
-Hecho con javasript, boostrap y <3
+Hecho con Javascript, Bootstrap y <3
