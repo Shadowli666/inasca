@@ -1,7 +1,21 @@
-.nav{
+nav,p{
 	font-family: 'Raleway', sans-serif;
 }
 
-.display-1,.display-2{
+h1,h2,h3,h4,h5,h6{
 	font-family: 'Montserrat', sans-serif;
+}
+#cabecera{
+	background-image: url(./assets/images/header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#title-group{
+	background-color: rgba(200,200,250,0.7);
+	border-radius: 50px;
+	color: white;
+}
+.round{
+	border-radius: 1.5em;
 }
