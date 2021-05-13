@@ -1,0 +1,51 @@
+.linear-bg{
+	background: rgb(34,193,195);
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(38,154,195,1) 100%) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.form-container{
+	height: 100%;
+	margin-top: 20vh;
+	margin-bottom: 20vh;
+}
+.fa-envelope{
+	transition: 0.2s;
+	font-size: 10em
+}
+
+.fa-envelope:hover{
+	transform: translateY(-.1em);
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+button[type="submit"]{
+	margin-right:3em;
+	margin-bottom: 1.2em;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus{
+	transition: 1s;
+	box-shadow: none;
+	outline: none;
+}
+/*Responsive*/
+@media screen and (max-device-width: 767px){
+.fa-envelope{
+	font-size: 8em;
+	margin-top: 5vw;
+}
+}
+
+@media screen and (orientation: landscape) {
+  .form-container:nth-child(1){
+  	background-color: red;
+  }
+}
