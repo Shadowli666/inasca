@@ -9,8 +9,8 @@
 
 .form-container{
 	height: 100%;
-	margin-top: 20vh;
-	margin-bottom: 20vh;
+	margin-top: 10vh;
+	margin-bottom: 10vh;
 }
 .fa-envelope{
 	transition: 0.2s;
@@ -35,6 +35,13 @@ textarea:focus{
 	transition: 1s;
 	box-shadow: none;
 	outline: none;
+}
+
+.nav-link{
+	transition: 1s;
+}
+.nav-link:hover{
+	border-bottom: .1em solid white;
 }
 /*Responsive*/
 @media screen and (max-device-width: 767px){
