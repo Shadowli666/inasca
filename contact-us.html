@@ -18,35 +18,22 @@
 </head>
 <body class="linear-bg">
 	<div class="container-fluid">
-	<nav class="navbar navbar-expand-md navbar-light justify-content-end">
-		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse text-center text-white" id="navbarNavDropdown">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link" href="index.html">Inicio</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Features</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link active" aria-current="page" href="#">Contactos</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						Dropdown link
-					</a>
-					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-						<li><a class="dropdown-item" href="#">Action</a></li>
-						<li><a class="dropdown-item" href="#">Another action</a></li>
-						<li><a class="dropdown-item" href="#">Something else here</a></li>
-					</ul>
-				</li>
-			</ul>
-		</div>
-	</div>
-</nav>
+		<!-- init of nav bar -->
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid ">
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse text-center text-white" id="navbarNavAltMarkup">
+					<div class="navbar-nav me-auto mb-2 mb-lg-0">
+						<a class="nav-link" href="index.html">Inicio</a>
+						<a class="nav-link active" aria-current="page" href="contact-us.html">Contactos</a>
+					</div>
+					<a class="nav-link" title="Acceder" href="login.html"><i class="fas fa-sign-in-alt"></i></a>
+				</div>
+			</div>
+		</nav>
+		<!-- end of nav bar -->
 <div class="d-flex align-items-center form-container">
 	<div class="container round shadow-lg bg-light w-75 bob">
 		<div class="row text-center clearfix">
@@ -60,7 +47,7 @@
 					<input type="text" name="s-name" required placeholder="Apellido" class="form-control">		
 					<input type="email" name="email" required placeholder="Correo eletrónico" class="form-control">
 					<textarea class="form-control textarea" placeholder="Escribe algo..."></textarea>
-					<button type="submit" class="btn btn-primary float-end">Enviar <i class="far fa-paper-plane fa-xs"></i></button>
+					<button type="submit" class="btn btn-light float-end btn-send">Enviar <i class="far fa-paper-plane fa-xs"></i></button>
 				</form>
 			</div>
 		</div>
