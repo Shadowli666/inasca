@@ -5,16 +5,38 @@ nav,p{
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Montserrat', sans-serif;
 }
-#cabecera{
-	background-image: url(./assets/images/header.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
+.active{
+	border-bottom: solid 1px ;
 }
 
 #title-group{
 	background-color: rgba(200,200,250,0.7);
 	border-radius: 50px;
 	color: white;
+}
+
+.parallax-container{
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.img-1{
+	background-image: url(./assets/images/header.jpg);
+}
+.img-2{
+	background-image: url("./assets/images/Imagen-2.jpg");
+}
+
+#contenido-1{
+	background-color: lightblue;
+	padding: 50px;
+}
+#contenido-2{
+	background-color: lightgray;
+	padding: 50px;
 }
 .round{
 	border-radius: 1.5em;
