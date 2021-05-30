@@ -1,0 +1,82 @@
+nav,p{
+	font-family: 'Raleway', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.trapecio{
+	width: 100%;
+    height: auto;
+    background-color: transparent;
+    border-right: 10vw solid transparent;
+    border-left: 10vw solid transparent;
+    border-top: 60px solid rgba(255, 255, 255, 1);
+	transform: translateY(-1px);
+}
+.title{
+	transform: translateY(-45px);
+	font-size: 2em;
+}
+
+@media screen and (max-device-width: 768px){
+	.title{
+		font-size: 1.5em;
+	}
+}
+@media screen and (max-device-width: 320px){
+	.title{
+		font-size: 1.4em;
+	}
+}
+.active{
+}
+
+#title-group{
+	background-color: rgba(200,200,250,0.7);
+	border-radius: 50px;
+	color: white;
+}
+
+.parallax-container{
+	height: 100vh;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+/*Images for parallax effect*/
+.img-1{
+	background-image: url("../images/header.jpg");
+}
+.img-2{
+	background-image: url("../images/Imagen-2.jpg");
+}
+.round{
+	border-radius: 1.5em;
+}
+/*Footer Content*/
+footer{
+	color: rgb(243 236 236);
+	background-color:rgb(23 24 28);
+}
+.social-media:hover{
+	border-bottom: none;
+}
+
+.social-media > i{
+	color:rgb(255,255,255,.95);
+	transition: 0.3s;
+	font-size: 2.5em;
+	margin: .5em;
+}
+
+.social-media > .fa-facebook:hover{
+	color: rgba(26,115,232,1);
+	font-size: 3.3em;
+}
+.social-media > .fa-whatsapp:hover{
+	color: rgba(0,155,25,1);
+	font-size: 3.3em;
+

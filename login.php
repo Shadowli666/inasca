@@ -31,7 +31,6 @@
 					<div class="collapse navbar-collapse text-center text-white" id="navbarNavAltMarkup">
 						<div class="navbar-nav me-auto mb-2 mb-lg-0">
 							<a class="nav-link" href="index.html">Inicio</a>
-							<a class="nav-link" href="catalog.html">Catálogo</a>
 							<a class="nav-link" href="contact-us.html">Contactos</a>
 						</div>
 						<a class="nav-link active" title="Acceder" href="login.php" aria-current="page"><i class="fas fa-sign-in-alt"></i></a>

@@ -14,7 +14,6 @@ background: linear-gradient(0deg, #00d2ff 0%, #3a47d5 100%) no-repeat center cen
 }
 .active{
 	color: rgba(255,255,255,1)!important;
-	border-bottom: solid 1px white;
 }
 
 .container-login{

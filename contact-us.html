@@ -11,48 +11,77 @@
 	<!-- Bootstrap CSS jsdelivr-->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<!-- Local CSS  -->
-	<link rel="stylesheet" type="text/css" href="main.css">
-	<link rel="stylesheet" type="text/css" href="contact-us.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/contact-us.css">
 	<!-- Font Awesome Icons-->
 	<script src="https://kit.fontawesome.com/7a6221e2a1.js" crossorigin="anonymous"></script>
 </head>
 <body class="linear-bg">
 	<div class="container-fluid">
-		<!-- init of nav bar -->
-		<nav class="navbar navbar-expand-lg navbar-light">
-			<div class="container-fluid ">
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse text-center text-white" id="navbarNavAltMarkup">
-					<div class="navbar-nav me-auto mb-2 mb-lg-0">
-						<a class="nav-link" href="index.html">Inicio</a>
-						<a class="nav-link active" aria-current="page" href="contact-us.html">Contactos</a>
+		<div class="container-fluid"> 
+			<header>
+				<!-- init of header -->
+				<!-- init of nav bar -->
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<div class="container-fluid ">
+						<h1 class="navbar-brand mb-0 text-white">INASCA</h1>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse text-center text-white" id="navbarNavAltMarkup">
+							<div class="navbar-nav me-auto mb-2 mb-lg-0">
+								<a class="nav-link" href="index.html">Inicio</a>
+								<a class="nav-link" href="catalog.html">Catálogo</a>
+								<a class="nav-link active" aria-current="page" href="contact-us.html">Contactos</a>
+							</div>
+								<a class="nav-link" title="Acceder" href="login.php"><i class="fas fa-sign-in-alt"></i></a>
+						</div>
 					</div>
-					<a class="nav-link" title="Acceder" href="login.html"><i class="fas fa-sign-in-alt"></i></a>
-				</div>
-			</div>
-		</nav>
+				</nav>
+				<!-- end of nav bar -->
+				<!-- end of header -->
+			</header>
+		</div>
 		<!-- end of nav bar -->
-<div class="d-flex align-items-center form-container">
-	<div class="container round shadow-lg bg-light w-75 bob">
-		<div class="row text-center clearfix">
-			<div class="col-md-4 align-self-center">
-				<i class="fas fa-envelope text-primary"></i>
-			</div>
-			<div class="col-md-8">
-				<form>
-					<h4 class="my-4 text-primary">Contáctanos</h4>
-					<input type="text" name="f-name" required placeholder="Nombre" class="form-control">
-					<input type="text" name="s-name" required placeholder="Apellido" class="form-control">		
-					<input type="email" name="email" required placeholder="Correo eletrónico" class="form-control">
-					<textarea class="form-control textarea" placeholder="Escribe algo..."></textarea>
-					<button type="submit" class="btn btn-light float-end btn-send">Enviar <i class="far fa-paper-plane fa-xs"></i></button>
-				</form>
+		<div class="d-flex align-items-center form-container">
+			<div class="container round shadow-lg bg-light w-75 bob">
+				<div class="row text-center clearfix">
+					<div class="col-md-4 align-self-center">
+						<i class="fas fa-envelope text-primary"></i>
+					</div>
+					<div class="col-md-8">
+						<form>
+							<h4 class="my-4 text-primary">Contáctanos</h4>
+							<input type="text" name="f-name" required placeholder="Nombre" class="form-control">
+							<input type="text" name="s-name" required placeholder="Apellido" class="form-control">		
+							<input type="email" name="email" required placeholder="Correo eletrónico" class="form-control">
+							<textarea class="form-control textarea" placeholder="Escribe algo..."></textarea>
+							<button type="submit" class="btn btn-light float-end btn-send">Enviar <i class="far fa-paper-plane fa-xs"></i></button>
+						</form>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+	<footer class="container-fluid pt-5">
+		<div class="row text-center d-flex align-items-center justify-content-center" style="">
+			<div class="col-md-6">
+				<a href="#" class="link-light">Inicio</a>
+				<a href="#" class="link-light">Contáctos</a>
+				<a href="#" class="link-light">Catálogo</a>
+			</div>
+			<div class="col-md-6">
+				<div id="footer-logo">
+					<a href="" class="social-media"><i class="fab fa-facebook" title="Facebook"></i></a>
+					<a href="" class="social-media"><i class="fab fa-whatsapp" title="Whatsapp"></i></a>
+					<a class="social-media"><i class="fab fa-instagram" title="Instagram"></i></a>
+					<a class="social-media"><i class="fab fa-telegram" title="Telegram"></i></a>
+				</div>
+			</div>
+		</div>
+		<div class="text-center">
+			<em>Copyright &copy INASCA 2021</em>
+		</div>
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 </body>
