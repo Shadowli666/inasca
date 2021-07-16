@@ -5,6 +5,21 @@ nav,p{
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Montserrat', sans-serif;
 }
+/*PageUp Button*/
+.pageUp{
+	text-align: center;
+	border-radius: 10em;
+	width: 50px;
+	height: 50px;
+	font-size: 2em;
+	color: #fff;
+	background-color: black;
+	bottom: 0;
+	right: 0;
+	margin: 1em;
+	position: fixed;
+	cursor: pointer;
+}
 
 .trapecio{
 	width: 100%;
@@ -19,20 +34,34 @@ h1,h2,h3,h4,h5,h6{
 	transform: translateY(-45px);
 	font-size: 2em;
 }
+.info-1{
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+	position: relative;
+	margin-bottom: -50px;
+	margin-top: -50px;
+}
 
-@media screen and (max-device-width: 768px){
+.navbar{
+	padding: 1em;
+}
+.info-1 >.row > div:nth-child(even){
+	box-shadow: 0em 0em 0.2em ;
+}
+
+@media screen and (max-width: 768px){
 	.title{
 		font-size: 1.5em;
 	}
+	.info-1{
+	margin-bottom: 0px;
+	margin-top: 0px;
 }
-@media screen and (max-device-width: 320px){
+}
+@media screen and (max-width: 320px){
 	.title{
 		font-size: 1.4em;
 	}
 }
-.active{
-}
-
 #title-group{
 	background-color: rgba(200,200,250,0.7);
 	border-radius: 50px;
@@ -60,6 +89,7 @@ h1,h2,h3,h4,h5,h6{
 footer{
 	color: rgb(243 236 236);
 	background-color:rgb(23 24 28);
+
 }
 .social-media:hover{
 	border-bottom: none;

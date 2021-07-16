@@ -31,10 +31,11 @@
 						<div class="collapse navbar-collapse text-center text-white" id="navbarNavAltMarkup">
 							<div class="navbar-nav me-auto mb-2 mb-lg-0">
 								<a class="nav-link" href="index.html">Inicio</a>
+								<a class="nav-link" href="about-us.html">Sobre Nosotros</a>
 								<a class="nav-link" href="catalog.html">Catálogo</a>
 								<a class="nav-link active" aria-current="page" href="contact-us.html">Contactos</a>
 							</div>
-								<a class="nav-link" title="Acceder" href="login.php"><i class="fas fa-sign-in-alt"></i></a>
+								<a class="nav-link" title="Acceder" href="login.html"><i class="fas fa-sign-in-alt"></i></a>
 						</div>
 					</div>
 				</nav>
@@ -55,7 +56,7 @@
 							<input type="text" name="f-name" required placeholder="Nombre" class="form-control">
 							<input type="text" name="s-name" required placeholder="Apellido" class="form-control">		
 							<input type="email" name="email" required placeholder="Correo eletrónico" class="form-control">
-							<textarea class="form-control textarea" placeholder="Escribe algo..."></textarea>
+							<textarea class="form-control textarea" placeholder="Escribe algo..." minlength="20" required maxlength="500"></textarea>
 							<button type="submit" class="btn btn-light float-end btn-send">Enviar <i class="far fa-paper-plane fa-xs"></i></button>
 						</form>
 					</div>
@@ -84,4 +85,14 @@
 		</div>
 	</footer>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		const init = () =>{
+			document.querySelector(".textarea").addEventListener('keypress', changeTextArea(e), false)
+		}
+		const changeTextArea = () =>{
+			console.log(e.key)
+
+		}
+		init();
+	</script>
 </body>

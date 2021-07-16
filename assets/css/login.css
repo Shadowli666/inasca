@@ -47,8 +47,9 @@ background: linear-gradient(0deg, #00d2ff 0%, #3a47d5 100%) no-repeat center cen
 .fa-user-circle{
 	color: #3a47d5;
 	font-size: 7em;
-
+	transition:1s;
 }
+
 /*Responsive*/
 @media screen and (max-device-width: 767px){
 .dummy{

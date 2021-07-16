@@ -1,0 +1,30 @@
+.collapse{
+  background-color: rgb(37 43 49);
+  padding: 0.5em;
+}
+
+@media screen and (max-device-width: 768px){
+  .test{
+    visibility: hidden;
+    display: none;
+  }
+}
+nav{
+  height: 100vh;
+}
+/*products*/
+@media screen and (max-device-width: 768px){
+  .test{
+    visibility: hidden;
+    display: none;
+  }
+  .add-item{
+    visibility: hidden;
+    display: none;
+  }
+}
+#price::-webkit-inner-spin-button, 
+#price::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

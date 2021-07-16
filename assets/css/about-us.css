@@ -1,0 +1,43 @@
+.mision-title, .about-title, .vision-title{
+	margin-bottom: 1em;
+}
+.about-text, .vision-text{
+	background-color: rgba(255, 255, 255, .5);
+	box-shadow: 0.1em 0.2em 0.1em,0.1em 0.2em 0.2em,0em 0.33em 0.3em ;
+	border-radius: 1em;
+	transform: translateX(-4em);
+	padding: 1em;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	position: relative;
+}
+.mision-text{
+	background-color: rgba(255, 255, 255, .5);
+	box-shadow: 0.1em 0.2em 0.1em,0.1em 0.2em 0.2em,0em 0.33em 0.3em ;
+	border-radius: 1em;
+	transform: translateX(4em);
+	padding: 1em;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	position: relative;
+}
+.bg-navbar{
+	transition: 1s;
+	background-color: rgba(255, 255, 255, 0.85);
+}
+.bg-navbar:hover{
+	background-color: rgba(255, 255, 255, 0.95);
+}
+#img{
+	border-radius: 1em;
+}
+@media screen and (max-width: 768px)
+{
+.about-text, .vision-text, .mision-text{
+	background-color:initial;
+	box-shadow: none ;
+	border-radius:none;
+	transform: initial;
+	padding: 0;
+}
+}

@@ -12,13 +12,13 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<!-- Local CSS  -->
 	<link rel="stylesheet" type="text/css" href="./assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="./assets/css/login.css">
+	<link rel="stylesheet" type="text/css" href="./assets/css/catalog.css">
 	<!-- Font Awesome Icons-->
 	<script src="https://kit.fontawesome.com/7a6221e2a1.js" crossorigin="anonymous"></script>
 </head>
 <body class="linear-bg">
 	<!-- init of header -->
-	<header class="container-fluid">
+	<header class="container-fluid mb-3">
 		<!-- init of nav bar -->
 		<nav class="navbar navbar-expand-lg navbar-dark">
 			<div class="container-fluid ">
@@ -29,24 +29,24 @@
 				<div class="collapse navbar-collapse text-center text-white" id="navbarNavAltMarkup">
 					<div class="navbar-nav me-auto mb-2 mb-lg-0">
 						<a class="nav-link" href="index.html">Inicio</a>
+						<a class="nav-link" href="about-us.html">Sobre Nosotros</a>
 						<a class="nav-link active" aria-current="page" href="catalog.html">Catálogo</a>
 						<a class="nav-link" href="contact-us.html">Contactos</a>
 					</div>
-					<a class="nav-link" title="Acceder" href="login.php"><i class="fas fa-sign-in-alt"></i></a>
+					<a class="nav-link" title="Acceder" href="login.html"><i class="fas fa-sign-in-alt"></i></a>
 				</div>
 			</div>
 		</nav>
 		<!-- end of nav bar -->
 	</header>
 	<!-- end of header -->
-	<main>
-	<p class="display-1">Precio: <span id="precio"> 0</span></p>
-
-		<div class="container">
+	<main class="my-4 p-4">
+			<h1 class="text-center text-white catalog-title mb-5">Catálogo de Productos</h1>
+		<div class="container bg-white round catalog-container">
 			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 p-5 g-3">
 				<div class="">
 					<img src="./assets/images/a.png" class="card-img-top" alt="...">
-					<div class="card-body">
+					<div class="card-body bg-white ">
 						<div class="form-check float-end">
 							<input class="form-check-input" type="checkbox" value="350" id="flexCheckDefault">
 						</div>
@@ -57,7 +57,7 @@
 				</div>
 				<div class="">
 					<img src="./assets/images/a.png" class="card-img-top" alt="...">
-					<div class="card-body">
+					<div class="card-body bg-white ">
 						<div class="form-check float-end">
 							<input class="form-check-input" type="checkbox" value="350" id="flexCheckDefault">
 						</div>
@@ -65,65 +65,9 @@
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 						<p>Price: <span class="price">350</span></p>
 					</div>
-				</div>
-				<div class="">
+				</div><div class="">
 					<img src="./assets/images/a.png" class="card-img-top" alt="...">
-					<div class="card-body">
-						<div class="form-check float-end">
-							<input class="form-check-input" type="checkbox" value="350" id="flexCheckDefault">
-						</div>
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<p>Price: <span class="price">350</span></p>
-					</div>
-				</div>
-				<div class="">
-					<img src="./assets/images/a.png" class="card-img-top" alt="...">
-					<div class="card-body">
-						<div class="form-check float-end">
-							<input class="form-check-input" type="checkbox" value="350" id="flexCheckDefault">
-						</div>
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<p>Price: <span class="price">350</span></p>
-					</div>
-				</div>
-				<div class="">
-					<img src="./assets/images/a.png" class="card-img-top" alt="...">
-					<div class="card-body">
-						<div class="form-check float-end">
-							<input class="form-check-input" type="checkbox" value="350" id="flexCheckDefault">
-						</div>
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<p>Price: <span class="price">350</span></p>
-					</div>
-				</div>
-				<div class="">
-					<img src="./assets/images/a.png" class="card-img-top" alt="...">
-					<div class="card-body">
-						<div class="form-check float-end">
-							<input class="form-check-input" type="checkbox" value="350" id="flexCheckDefault">
-						</div>
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<p>Price: <span class="price">350</span></p>
-					</div>
-				</div>
-				<div class="">
-					<img src="./assets/images/a.png" class="card-img-top" alt="...">
-					<div class="card-body">
-						<div class="form-check float-end">
-							<input class="form-check-input" type="checkbox" value="350" id="flexCheckDefault">
-						</div>
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<p>Price: <span class="price">350</span></p>
-					</div>
-				</div>
-				<div class="">
-					<img src="./assets/images/a.png" class="card-img-top" alt="...">
-					<div class="card-body">
+					<div class="card-body bg-white ">
 						<div class="form-check float-end">
 							<input class="form-check-input" type="checkbox" value="350" id="flexCheckDefault">
 						</div>
@@ -162,25 +106,59 @@
 	<!-- Bootstrap JS -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 	<script type="text/javascript">
-		const test = document.querySelectorAll(".form-check-input");
-		const result =  document.querySelector("#precio");
-		const init = () =>{
-			const test = document.querySelectorAll(".form-check-input");
-			test.forEach(inp => inp.addEventListener("click", testeo, false))
-			console.log`${test}`;
-		}
-		const testeo = () =>{
-			let price = 0;
-			for(var i = 0, length1 = test.length; i < length1; i++){
-				if (test[i].checked == true) {
-					price += parseInt(test[i].value);
-				}
-			}
-			console.log(`${price}`);
-			result.innerText = price;	
-			result.value = price;
-		}
-		init();
+		// const test = document.querySelectorAll(".form-check-input");
+		// const result =  document.querySelector("#precio");
+		// const init = () =>{
+		// 	const test = document.querySelectorAll(".form-check-input");
+		// 	test.forEach(inp => inp.addEventListener("click", testeo, false))
+		// 	console.log`${test}`;
+		// }
+		// const testeo = () =>{
+		// 	let price = 0;
+		// 	for(var i = 0, length1 = test.length; i < length1; i++){
+		// 		if (test[i].checked == true) {
+		// 			price += parseInt(test[i].value);
+		// 		}
+		// 	}
+		// 	console.log(`${price}`);
+		// 	result.innerText = price;	
+		// 	result.value = price;
+		// }
+		// init();
 	</script>
+<script type="text/javascript">
+	const init1 = () =>{
+		document.addEventListener('scroll', scrollPUpBtn, false)//scroll event
+		pageUpBtn.addEventListener('click', upPage, false)//click event for the button
+	}
+	const scrollPUpBtn = () =>{
+		if (window.scrollY < 100) {
+			pageUpBtn.classList.add('d-none') //adding display box css
+			pageUpBtn.classList.remove('d-box') //removing display none css
+		}
+		else {
+			pageUpBtn.classList.remove('d-none') //removing display none css
+			pageUpBtn.classList.add('d-box') //adding display box css
+			pageUpBtn.style.backgroundColor = 'rgba('+0+','+0+','+0+','+window.scrollY*0.001+')'
+			pageUpBtn.style.color = 'rgba('+255+','+255+','+255+','+window.scrollY*0.001+')'
+			//Transparency for the button in scroll
+		}
+	}
+	const upPage = () =>{
+		window.scroll(0,-window.scrollY);//scroll to init of document
+	}
+	// Button created with DOM
+	function createUp () {
+		 var upPageElement =  document.createElement("div")//container
+		 var upPageIcon =  document.createElement("i")//icon
+		 upPageElement.classList.add('pageUp','d-none')//class for the container
+		 upPageIcon.classList.add('fas','fa-angle-double-up','fa-fw')//class for the icon
+		 upPageElement.appendChild(upPageIcon)//making icon child of container
+		 document.body.appendChild(upPageElement)//adding container with icon to the document
+		}
+	createUp();//creating button
+	const pageUpBtn = document.querySelector(".pageUp");//selecting button
+	init1();//init of the script
+</script>
 </body>
 </html>

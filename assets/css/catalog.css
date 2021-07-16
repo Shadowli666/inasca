@@ -1,0 +1,33 @@
+/*catalog*/
+.linear-bg{
+background: rgb(0,0,0);
+background: linear-gradient(0deg, #00d2ff 0%, #3a47d5 100%) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.nav-link{
+	color: rgba(255,255,255,0.5)!important;
+}
+.nav-link:hover{
+	color: rgba(255,255,255,0.8)!important;
+}
+.active{
+	color: rgba(255,255,255,1)!important;
+}
+.bg-navbar{
+	transition: 1s;
+}
+.bg-navbar:hover{
+	background-color: rgba(255, 255, 255, 0.85);
+}
+
+.catalog-title{
+	text-shadow: 0.2em 0.2em 0.2em black;
+}
+.catalog-container{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+/*end of catalog*/
