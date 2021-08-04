@@ -74,6 +74,15 @@
 			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<div class="cintaIzq"></div>
+		<p class="title" style="font-size: 1em;">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
 	</div>
 </section>
 
@@ -101,38 +110,6 @@
 <!-- Optional JavaScript -->
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-<script type="text/javascript">
-	const init = () =>{
-		document.addEventListener('scroll', scrollPUpBtn, false)//scroll event
-		pageUpBtn.addEventListener('click', upPage, false)//click event for the button
-	}
-	const scrollPUpBtn = () =>{
-		if (window.scrollY < 100) {
-			pageUpBtn.classList.add('d-none') //adding display box css
-			pageUpBtn.classList.remove('d-box') //removing display none css
-		}
-		else {
-			pageUpBtn.classList.remove('d-none') //removing display none css
-			pageUpBtn.classList.add('d-box') //adding display box css
-			pageUpBtn.style.backgroundColor = 'rgba('+0+','+0+','+0+','+window.scrollY*0.001+')'
-			//Transparency for the button in scroll
-		}
-	}
-	const upPage = () =>{
-		window.scroll(0,-window.scrollY);//scroll to init of document
-	}
-	// Button created with DOM
-	function createUp () {
-		 var upPageElement =  document.createElement("div")//container
-		 var upPageIcon =  document.createElement("i")//icon
-		 upPageElement.classList.add('pageUp','d-none')//class for the container
-		 upPageIcon.classList.add('fas','fa-angle-double-up','fa-fw')//class for the icon
-		 upPageElement.appendChild(upPageIcon)//making icon child of container
-		 document.body.appendChild(upPageElement)//adding container with icon to the document
-		}
-	createUp();//creating button
-	const pageUpBtn = document.querySelector(".pageUp");//selecting button
-	init();//init of the script
-</script>
+<script type="text/javascript" src="./assets/js/scroll-button.js"></script>
 </body>
 </html>
